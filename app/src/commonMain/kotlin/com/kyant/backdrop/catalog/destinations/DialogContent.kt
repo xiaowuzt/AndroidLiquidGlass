@@ -72,7 +72,7 @@ fun DialogContent() {
                 .fillMaxWidth()
         ) {
             BasicText(
-                "Dialog Title",
+                "对话框标题",
                 Modifier.padding(28f.dp, 24f.dp, 28f.dp, 12f.dp),
                 style = TextStyle(contentColor, 24f.sp, FontWeight.Medium)
             )
@@ -113,7 +113,7 @@ fun DialogContent() {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     BasicText(
-                        "Cancel",
+                        "取消",
                         style = TextStyle(contentColor, 16f.sp)
                     )
                 }
@@ -129,7 +129,7 @@ fun DialogContent() {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     BasicText(
-                        "Okay",
+                        "确定",
                         style = TextStyle(Color.White, 16f.sp)
                     )
                 }

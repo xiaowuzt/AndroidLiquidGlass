@@ -142,7 +142,7 @@ fun GlassPlaygroundContent() {
                     verticalArrangement = Arrangement.spacedBy(16f.dp)
                 ) {
                     Column(verticalArrangement = Arrangement.spacedBy(8f.dp)) {
-                        BasicText("Corner radius")
+                        BasicText("圆角半径")
                         LiquidSlider(
                             value = { cornerRadiusFrac },
                             onValueChange = { cornerRadiusFrac = it },
@@ -152,7 +152,7 @@ fun GlassPlaygroundContent() {
                         )
                     }
                     Column(verticalArrangement = Arrangement.spacedBy(8f.dp)) {
-                        BasicText("Blur radius")
+                        BasicText("模糊半径")
                         LiquidSlider(
                             value = { blurRadiusDp },
                             onValueChange = { blurRadiusDp = it },
@@ -162,7 +162,7 @@ fun GlassPlaygroundContent() {
                         )
                     }
                     Column(verticalArrangement = Arrangement.spacedBy(8f.dp)) {
-                        BasicText("Refraction height")
+                        BasicText("折射高度")
                         LiquidSlider(
                             value = { refractionHeightFrac },
                             onValueChange = { refractionHeightFrac = it },
@@ -172,7 +172,7 @@ fun GlassPlaygroundContent() {
                         )
                     }
                     Column(verticalArrangement = Arrangement.spacedBy(8f.dp)) {
-                        BasicText("Refraction amount")
+                        BasicText("折射量")
                         LiquidSlider(
                             value = { refractionAmountFrac },
                             onValueChange = { refractionAmountFrac = it },
@@ -182,7 +182,7 @@ fun GlassPlaygroundContent() {
                         )
                     }
                     Column(verticalArrangement = Arrangement.spacedBy(8f.dp)) {
-                        BasicText("Chromatic aberration")
+                        BasicText("色差")
                         LiquidSlider(
                             value = { chromaticAberration },
                             onValueChange = { chromaticAberration = it },
@@ -232,7 +232,7 @@ fun GlassPlaygroundContent() {
                 tint = Color(0xFFFF8D28)
             ) {
                 BasicText(
-                    "Reset",
+                    "重置",
                     style = TextStyle(Color.White, 15f.sp)
                 )
             }
