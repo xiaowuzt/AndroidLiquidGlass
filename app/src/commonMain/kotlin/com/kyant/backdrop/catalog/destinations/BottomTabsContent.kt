@@ -54,7 +54,7 @@ fun BottomTabsContent() {
                                     .paint(airplaneModeIcon, colorFilter = iconColorFilter)
                             )
                             BasicText(
-                                "Tab ${index + 1}",
+                                "标签 ${index + 1}",
                                 style = TextStyle(contentColor, 12f.sp)
                             )
                         }
@@ -79,7 +79,7 @@ fun BottomTabsContent() {
                                     .paint(airplaneModeIcon, colorFilter = iconColorFilter)
                             )
                             BasicText(
-                                "Tab ${index + 1}",
+                                "标签 ${index + 1}",
                                 style = TextStyle(contentColor, 12f.sp)
                             )
                         }

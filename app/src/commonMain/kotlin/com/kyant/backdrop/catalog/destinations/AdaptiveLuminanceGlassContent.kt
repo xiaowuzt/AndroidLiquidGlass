@@ -153,7 +153,7 @@ fun AdaptiveLuminanceGlassContent() {
         ) {
             Block {
                 BasicText(
-                    "luminance:\n${(luminanceAnimation.value * 100f).fastRoundToInt() / 100.0}",
+                    "亮度:\n${(luminanceAnimation.value * 100f).fastRoundToInt() / 100.0}",
                     style = TextStyle(Color.Unspecified, 16f.sp, textAlign = TextAlign.Center),
                     color = { contentColorAnimation.value }
                 )

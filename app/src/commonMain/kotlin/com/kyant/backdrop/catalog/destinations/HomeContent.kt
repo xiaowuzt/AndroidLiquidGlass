@@ -35,30 +35,30 @@ fun HomeContent(onNavigate: (CatalogDestination) -> Unit) {
         verticalArrangement = Arrangement.spacedBy(16f.dp)
     ) {
         BasicText(
-            "Backdrop Catalog",
+            "背景目录",
             Modifier.padding(16f.dp, 40f.dp, 16f.dp, 16f.dp),
             style = TextStyle(contentColor, 28f.sp, FontWeight.Medium)
         )
 
         Column {
-            Subtitle("Liquid glass components")
-            ListItem({ onNavigate(CatalogDestination.Buttons) }, "Buttons")
-            ListItem({ onNavigate(CatalogDestination.Toggle) }, "Toggle")
-            ListItem({ onNavigate(CatalogDestination.Slider) }, "Slider")
-            ListItem({ onNavigate(CatalogDestination.BottomTabs) }, "Bottom tabs")
-            ListItem({ onNavigate(CatalogDestination.Dialog) }, "Dialog")
+            Subtitle("液态玻璃组件")
+            ListItem({ onNavigate(CatalogDestination.Buttons) }, "按钮")
+            ListItem({ onNavigate(CatalogDestination.Toggle) }, "开关")
+            ListItem({ onNavigate(CatalogDestination.Slider) }, "滑块")
+            ListItem({ onNavigate(CatalogDestination.BottomTabs) }, "底部标签")
+            ListItem({ onNavigate(CatalogDestination.Dialog) }, "对话框")
 
-            Subtitle("System UIs")
-            ListItem({ onNavigate(CatalogDestination.LockScreen) }, "Lock screen (SDF texture)")
-            ListItem({ onNavigate(CatalogDestination.ControlCenter) }, "Control center")
-            ListItem({ onNavigate(CatalogDestination.Magnifier) }, "Magnifier")
+            Subtitle("系统界面")
+            ListItem({ onNavigate(CatalogDestination.LockScreen) }, "锁屏 (SDF 纹理)")
+            ListItem({ onNavigate(CatalogDestination.ControlCenter) }, "控制中心")
+            ListItem({ onNavigate(CatalogDestination.Magnifier) }, "放大镜")
 
-            Subtitle("Experiments")
-            ListItem({ onNavigate(CatalogDestination.GlassPlayground) }, "Glass playground")
-            ListItem({ onNavigate(CatalogDestination.AdaptiveLuminanceGlass) }, "Adaptive luminance glass")
-            ListItem({ onNavigate(CatalogDestination.ProgressiveBlur) }, "Progressive blur")
-            ListItem({ onNavigate(CatalogDestination.ScrollContainer) }, "Scroll container")
-            ListItem({ onNavigate(CatalogDestination.LazyScrollContainer) }, "Lazy scroll container")
+            Subtitle("实验")
+            ListItem({ onNavigate(CatalogDestination.GlassPlayground) }, "玻璃游乐场")
+            ListItem({ onNavigate(CatalogDestination.AdaptiveLuminanceGlass) }, "自适应亮度玻璃")
+            ListItem({ onNavigate(CatalogDestination.ProgressiveBlur) }, "渐进模糊")
+            ListItem({ onNavigate(CatalogDestination.ScrollContainer) }, "滚动容器")
+            ListItem({ onNavigate(CatalogDestination.LazyScrollContainer) }, "惰性滚动容器")
         }
     }
 }

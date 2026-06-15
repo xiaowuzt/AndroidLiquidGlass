@@ -64,7 +64,7 @@ fun ProgressiveBlurContent() {
                     .fillMaxWidth(),
                 contentAlignment = Alignment.Center
             ) {
-                BasicText("alpha-masked progressive blur", style = TextStyle(contentColor, 16f.sp))
+                BasicText("Alpha 遮罩渐进模糊", style = TextStyle(contentColor, 16f.sp))
             }
         }
     }

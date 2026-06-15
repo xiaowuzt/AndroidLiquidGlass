@@ -24,7 +24,7 @@ fun ButtonsContent() {
                 backdrop
             ) {
                 BasicText(
-                    "Transparent Liquid Button",
+                    "透明液态按钮",
                     style = TextStyle(Color.Black, 15f.sp)
                 )
             }
@@ -34,7 +34,7 @@ fun ButtonsContent() {
                 surfaceColor = Color.White.copy(0.3f)
             ) {
                 BasicText(
-                    "Surface Liquid Button",
+                    "表面液态按钮",
                     style = TextStyle(Color.Black, 15f.sp)
                 )
             }
@@ -44,7 +44,7 @@ fun ButtonsContent() {
                 tint = Color(0xFF0088FF)
             ) {
                 BasicText(
-                    "Tinted Liquid Button",
+                    "着色液态按钮",
                     style = TextStyle(Color.White, 15f.sp)
                 )
             }
@@ -54,7 +54,7 @@ fun ButtonsContent() {
                 tint = Color(0xFFFF8D28)
             ) {
                 BasicText(
-                    "Tinted Liquid Button",
+                    "着色液态按钮",
                     style = TextStyle(Color.White, 15f.sp)
                 )
             }
